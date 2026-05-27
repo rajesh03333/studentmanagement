@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>addStudent</title>
+    <style>
+        #navdiv {
+            background-color: lightgray;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        a {
+            margin: 10px;
+            text-decoration: none;
+            color: black;
+        }
+
+        body {
+            background-color: lightblue;
+        }
+
+        #main {
+            border: 2px solid black;
+            width: 310px;
+            height: 300px;
+            margin: auto;
+            margin-top: 300px;
+            text-align: center;
+            border-radius: 10px;
+            background-color: lightgrey;
+        }
+
+        input {
+            border-radius: 5px;
+        }
+
+        button {
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        a:hover {
+            color: yellow;
+        }
+    </style>
 </head>
+
 <body>
-    <div>
+    <div id="navdiv">
+        <a href="./dashboard.html">Dashboard</a>
+        <a href="./addStudent.html">AddStudent</a>
+        <a href="./viewStudent.html">ViewStudent</a>
+        <a href="./index.html">Logout</a>
+    </div>
+    <div id="main">
         <h1>Add Student</h1>
         <form action="dashboard.html">
             <label>Student Name:</label>
@@ -21,4 +70,5 @@
         </form>
     </div>
 </body>
+
 </html>

@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+div{
+    margin:5px;
+}
+a{
+    margin:10px;
+    text-decoration:none;
+    color:black;
+}
+#homenav{
+    background-color:lightgray;
+    padding:10px;
+    border-bottom:2px solid black;
+    border-radius:5px;
+}
+#bodydiv{
+    text-align:center;
+    background-color:lightpink;
+    height:100vh;
+    border-radius:5px;
+}
+a:hover{
+    color:yellow;
+}

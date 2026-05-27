@@ -1,12 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <style>
+        a:hover {
+            color: yellow;
+        }
+
+        a {
+            margin: 10px;
+            text-decoration: none;
+            color: black;
+        }
+
+        #navdiv {
+            background-color: lightgray;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        body {
+            background-color: lightblue;
+        }
+
+        #main {
+            border: 2px solid black;
+            width: 300px;
+            height: 200px;
+            margin: auto;
+            margin-top: 300px;
+            text-align: center;
+            border-radius: 10px;
+            background-color: lightgrey;
+        }
+
+        input {
+            border-radius: 5px;
+        }
+
+        button {
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
 </head>
+
 <body>
-    <div>
+    <div id="navdiv">
+        <a href="./index.html">Home</a>
+        <a href="./login.html">Login</a>
+        <a href="./register.html">Register</a>
+    </div>
+    <div id="main">
         <h2>Login</h2>
         <form action="./dashboard.html">
             <label>UserName:</label>
@@ -17,4 +65,5 @@
         </form>
     </div>
 </body>
+
 </html>
